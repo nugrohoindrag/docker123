@@ -7,9 +7,9 @@ ADD /src/app /main/
 #Where the directory work
 WORKDIR /main
 #Build the apps 
-RUN go build -o cetol .
+RUN go build -o golang-restful-api .
 #Ending
-CMD ["/main/cetol"]
+CMD ["/main/golang-restful-api"]
 #port
 EXPOSE 8000
 
